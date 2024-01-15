@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@200;300;400;500;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@300;400;500;600;700;800;900;1000&family=Open+Sans:ital,wght@0,500;1,700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@200;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+
+}
+
+header {
+  min-width: 992px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+nav {
+  display: flex;
+  /* gap: 1000px; */
+  align-items: center;
+}
+
+.Adventure {
+  display: flex;
+  width: 50%;
+  gap: 16px;
+  margin-top: 52px;
+  margin-left: 135px;
+}
+.Adventure-icon img {
+  width: 50px;
+}
+.Adventure-heading {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-bar {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 63px;
+  margin-right: 127px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-bar div > a {
+  color: #ff5400;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* banner section ------ */
+
+.banner-section {
+  background-image: url("../Images/Group\ 13\ .png");
+  /* background: linear-gradient(180deg, rgb(189, 187, 187) 0%, rgb(181, 181, 187) 100%); */
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 135px;
+  margin-left: 135px;
+  margin-bottom: 100px;
+
+  border-radius: 16px;
+}
+
+.banner-section-container {
+  text-align: center;
+  align-items: center;
+}
+.input-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 768px;
+  height: 52px;
+  padding: 16px;
+  border: 2px solid red;
+  margin-right: auto;
+  margin-left: auto;
+}
+.banner-section-container h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+.banner-section-container p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.input-item div > input {
+  width: 174px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  /* padding: 16px 74px 16px 16px; */
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+}
+.input-item div > button {
+  width: 174px;
+  border-radius: 8px;
+  background: #ff5400;
+  /* padding: 35px 16px 35px 16px; */
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+.input-item div img {
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+.input-item div > button > img {
+  position: relative;
+  top: 5px;
+  right: 20px;
+}
+
+/* popular section styles >>>>>>>>>>> */
+
+
+main {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.popular-section {
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+
+}
+.popular-content {
+  width: 50%;
+  margin-left: 135px;
+}
+
+.popular-content h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.popular-content > p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.popular-content li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.popular-content button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  margin-top: 32px;
+}
+.popular-section-image {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  margin-left: 135px;
+  border-radius: 16px;
+}
