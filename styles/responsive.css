@@ -5,4 +5,22 @@
   .nav-bar {
     display: none;
   }
+
+
+  .popular-section {
+    flex-direction: column;
+  }
+
+  .place-section{
+    flex-direction: column;
+  }
+
+  .newsletter-section {
+    flex-direction: column;
+  }
+  .newsletter-image {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
 }

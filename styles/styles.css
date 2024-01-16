@@ -2,6 +2,7 @@
 
 body {
   font-family: "Mulish", sans-serif;
+  margin: 0px;
 }
 
 header {
@@ -58,9 +59,9 @@ nav {
 /* banner section ------ */
 
 .banner-section {
+  width: 1440px;
   background-image: url("../Images/Group\ 13\ .png");
-  /* background: linear-gradient(180deg, rgb(189, 187, 187) 0%, rgb(181, 181, 187) 100%); */
-  width: 100%;
+  /* width: 100%; */
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,19 +74,13 @@ nav {
   align-items: center;
 }
 .input-item {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
-  width: 768px;
-  height: 52px;
-  padding: 16px;
+
   border: 2px solid red;
-  margin-right: auto;
-  margin-left: auto;
+ 
 }
 .banner-section-container h2 {
   color: #fff;
@@ -361,6 +356,8 @@ nav {
   line-height: 26px;
 }
 
+/* -------------- */
+
 /* ---place-section styles--- */
 
 .place-section {
@@ -430,7 +427,7 @@ nav {
 
 .newsletter-section {
   display: flex;
-  gap: 250px;
+  gap: 240px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -474,7 +471,8 @@ nav {
   padding: 8px;
 }
 .newsletter-image {
-  width: 100%;
+  width:100%;
+  height: 100%;
   position: relative;
 }
 .newsletter-image button {
@@ -500,10 +498,11 @@ nav {
 }
 /* -------------footer section styles -------------------- */
 .footer-section {
+  max-height: 600px;
   margin-top: 100px;
   margin-right: 0px;
   margin-left: 0px;
- background: rgba(19, 19, 24, 0.05);
+  background: rgba(19, 19, 24, 0.05);
 }
 .footer-header {
   display: flex;
@@ -519,10 +518,29 @@ nav {
 }
 
 .footer-header h2 {
-  color:  #131318;
+  color: #131318;
   font-size: 32px;
   font-weight: 800;
 }
 .footer-section p {
- text-align: center;
+  text-align: center;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.copyright-item {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 110px;
+  padding-top: 50px;
+}
+
+.footer-section hr {
+  width: 1440px;
+  margin: auto;
 }
