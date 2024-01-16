@@ -145,6 +145,7 @@ nav {
   display: flex;
   gap: 160px;
   margin-top: 100px;
+  justify-content: space-between;
 }
 .popular-content {
   width: 50%;
@@ -364,11 +365,12 @@ nav {
 
 .place-section {
   display: flex;
-  gap: 28px;
+  gap: 50px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 113px;
+  justify-content: space-between;
 }
 .place-content {
   width: 50%;
@@ -389,16 +391,138 @@ nav {
 .place-content ul > li {
   color: #131318;
   font-size: 16px;
-  font-weight: 700; 
+  font-weight: 700;
   line-height: 26px;
 }
-  
+
+.place-content button {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 14px 42px 14px 42px;
+  border: none;
+}
 
 .video-container {
   max-width: 610px;
+  position: relative;
 }
-.video-container >video {
+.video-container > video {
   width: 100%;
   height: 424px;
   border-radius: 16px;
+}
+.video-container-thumbnail {
+  position: absolute;
+  bottom: 180px;
+  left: 150px;
+  max-width: 276px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* newsletter-section styles  */
+
+.newsletter-section {
+  display: flex;
+  gap: 250px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.newsletter-content {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.newsletter-content h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.newsletter-content p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.newsletter-content input {
+  display: flex;
+  padding: 16px 251px 16px 20px;
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.subscribe-btn {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  width: 100%;
+  border: none;
+  padding: 8px;
+}
+.newsletter-image {
+  width: 100%;
+  position: relative;
+}
+.newsletter-image button {
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  padding: 50px;
+  border: none;
+}
+.sale-off-1 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.sale-off-2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+/* -------------footer section styles -------------------- */
+.footer-section {
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-left: 0px;
+ background: rgba(19, 19, 24, 0.05);
+}
+.footer-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-top: 110px;
+}
+
+.footer-header img {
+  width: 40px;
+  height: 46.673px;
+}
+
+.footer-header h2 {
+  color:  #131318;
+  font-size: 32px;
+  font-weight: 800;
+}
+.footer-section p {
+ text-align: center;
 }
