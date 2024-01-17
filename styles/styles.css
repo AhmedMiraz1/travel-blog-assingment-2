@@ -16,6 +16,9 @@ header {
   margin-right: auto;
 }
 
+/* ------------------nav styles------------------ */
+
+
 nav {
   display: flex;
   align-items: center;
@@ -64,7 +67,7 @@ img {
   font-weight: 700;
 }
 
-/* banner section ------ */
+/*---------- banner section styles  ------ */
 
 .banner-section {
   width: 1440px;
@@ -152,7 +155,7 @@ img {
   right: 20px;
 }
 
-/* popular section styles >>>>>>>>>>> */
+/* --------------popular section styles >>>>>>>>>>> */
 
 .popular-section {
   max-width: 1440px;
@@ -204,6 +207,10 @@ img {
   align-items: center;
   border-radius: 16px;
 }
+
+/* -------------destination styles  */
+
+
 .destination {
   max-width: 1440px;
   margin-left: auto;
@@ -270,6 +277,8 @@ img {
   font-weight: 800;
 }
 /* ---Choose-section styles----- */
+
+
 .Choose-section {
   max-width: 1440px;
   margin-left: auto;
